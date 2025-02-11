@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden
+}
+
+body {
+    background-color: black;
+}
+/* TOP HEADER SECTION START --> */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+    z-index: 1;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.navbar {
+    display: flex;
+    gap: 35px;
+    padding-right: 80px;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: 'Lustria', sans-serif;
+    color: white;
+}
+
+.navbar a:hover {
+    color: #6213ff;
+    transition: color 0.4s ease;
+}
+
+.swe-sign {
+    text-decoration: none;
+    font-family: 'League Spartan', sans-serif;
+    color: #6213ff;
+    font-size: 45px;
+    padding-left: 75px;
+}
+
+.swe-sign:hover {
+    color: white;
+    transition: color 1s ease;
+}
+/* TOP HEADER SECTION END --> */
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #6213ff , #cb6ce6);
+    height: 500px;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 8%;
+    border-radius: 35px;
+    flex-wrap: wrap
+}
+.welcome-text-container {
+    display: flex;
+    font-family: 'League Spartan', sans-serif;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 10%;
+}
+
+.welcome-image {
+    width: 35%;
+    margin-left: 130px;
+    margin-bottom: 4px;
+    max-width: 400px;
+    min-width: 300px;
+    border: 17px solid white;
+    border-bottom: 75px solid white;
+}
+
+.welcome-text {
+    color: black;
+    font-size: 100px;
+    margin-bottom: 2%;
+}
+
+.bigSWE {
+    color: white;
+    font-size: 115px;
+}
+
+.sjsu {
+    color: black;
+    font-size: 70px;
+}
+
+.home_titles {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'League Spartan', sans-serif;
+    color: #6213ff;
+    font-size: 60px;
+    padding-left: 75px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.home_sub_titles {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+    font-size: 45px;
+    padding-left: 75px;
+    padding-top: 25px;
+    font-style: italic;
+}
+
+.past_iter {
+    padding-top: 50px;
+}
+
+.endtext {
+    padding-bottom:100px;
+}
+
+.text {
+    display: flex;
+    justify-content: left;
+    color: white;
+    padding-left: 75px;
+    padding-right: 220px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: arial;
+    line-height: 1.5;
+}
+
+.sub_text {
+    display: flex;
+    text-align: center;
+    color: white;
+    padding-left: 380px;
+    padding-right: 380px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: arial;
+    line-height: 1.5;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 120px;
+    overflow: visible
+    }
+
+.stats div {
+    padding: 45px 45px;
+    border-radius: 30px;
+    font-size: 40px;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    color:white;
+    transition: box-shadow 0.5s ease-in-out;
+    box-shadow:
+        0 0 40px rgba(98, 170, 255, 0.8),
+        0 0 80px rgba(98, 19, 255, 0.5),
+        0 0 120px rgba(98, 19, 255, 0.3);
+    }
+
+.stats div:hover {
+    box-shadow:
+        0 0 40px rgba(150, 130, 255, 0.8),
+        0 0 80px rgba(150, 130, 255, 0.5),
+        0 0 120px rgba(150, 130, 255, 0.3);
+}
+
+.highlights {
+    margin-top: 60px;
+}
+
+.topics {
+    margin-top: 120px;
+}
+
+.modify_stats {
+    font-size: 20px;
+}
+
+.about {
+    padding-top: 75px;
+}
+
+.endnav {
+    color: white;
+}
+
+.end {
+    display:flex;
+    justify-content: space between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    color: rgb(71, 85, 90);
+    font-family: arial;
+
+
+}
+.leftend{
+    padding-left: 50px;
+    padding-right: 450px;
+}
+.rightend{
+    display: flex;
+    gap: 30px;
+    padding-right:10px;
+}
+
+.endlink {
+    text-decoration: none;
+    color: rgb(71, 85, 90);
+}
+
+.endlink:hover {
+    color: white;
+    transition: color 1s ease;
+}
+
+.hrline {
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 20px 0;
+}
+
+.home_titles::after {
+    content: "";
+    flex-grow: 1;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-left: 20px;
+    margin-right: 90px;
+
+}
