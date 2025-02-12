@@ -1,1 +1,1 @@
-CONTENTS TAKEN FROM GITHUB: shakshiHUB -- All Rights Reserved.
+CONTENTS TAKEN FROM shakshiHUB -- All Rights Reserved.
