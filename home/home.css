@@ -19,6 +19,8 @@ body {
     background-color: black;
     width: 100%;
     padding-bottom: 20px;
+    border-bottom: 1px solid rgb(71, 85, 90);
+
 }
 
 .navbar {
@@ -57,14 +59,20 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(to right, #6213ff , #cb6ce6);
+    background-image: linear-gradient(to right, #ab6df7, #6213ff);
     height: 500px;
     margin: 0 auto;
     width: 90%;
-    margin-top: 8%;
+    margin-top: 10%;
     border-radius: 35px;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    border: 5px solid white;
+    box-shadow:
+        0 0 50px rgba(255, 255, 255, 0.8),
+        0 0 50px rgba(255, 255, 255, 0.5),
+        0 0 50px rgba(255, 255, 255, 0.3);
 }
+
 .welcome-text-container {
     display: flex;
     font-family: 'League Spartan', sans-serif;
