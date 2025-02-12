@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const img = document.querySelector(".welcome-image"); // find img
-    const imgs = ["sweplus_photos/photo1.jpg", "sweplus_photos/photo2.jpg", "sweplus_photos/photo3.jpg"]; // list of imgs
+    const imgs = ["home/sweplus_photos/photo1.jpg", "home/sweplus_photos/photo2.jpg", "home/sweplus_photos/photo3.jpg"]; // list of imgs
 
     let index = 0; // start @ first img
 
