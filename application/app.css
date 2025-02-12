@@ -1,10 +1,28 @@
-.message h1{
-    display: flex;
 
+
+.closed {
+    display: flex;
     justify-content: center;
-    margin-top: 400px;
-    margin-bottom: 400px;
+    margin-top: 220px;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     font-family: Courier New;
+}
+
+.check {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    color: white;
+    font-size: 30px;
+    font-family: Courier New;
+}
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-bottom: 70px;
 }
